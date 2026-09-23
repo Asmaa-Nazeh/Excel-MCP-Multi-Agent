@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated / uploaded Excel files
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Chroma / local databases
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
